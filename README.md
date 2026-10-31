@@ -30,10 +30,9 @@ Atividade 1 e 2: Estrutura Base
  * Ajustes visuais nos títulos e textos principais.
 
 
-![imagempagecss1]img/imagempagecss1.jpg.jpeg).
-![imagempagecss1]img/imagempagecss2.jpg.jpeg).
-![imagempagecss1]img/imagempagecss3.jpg.jpeg).
-![imagempagecss1]img/imagempagecss4.jpg.jpeg).
-
-![Formulário 1](img/imagemformulario1.jpg.jpeg)
-![Formulário 2](img/imagemformulario2.jpg.jpeg)
+![imagempagecss1](img/imagempagecss1.jpg)
+![imagempagecss2](img/imagempagecss2.jpg)
+![imagempagecss3](img/imagempagecss3.jpg)
+![imagempagecss4](img/imagempagecss4.jpg)
+![imagemformulario1](img/imagemformulario1.jpg)
+![imagemformulario2](img/imagemformulario2.jpg)
