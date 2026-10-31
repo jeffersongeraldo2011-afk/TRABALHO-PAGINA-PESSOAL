@@ -28,7 +28,12 @@ Atividade 1 e 2: Estrutura Base
  * Estilização do cabeçalho, menu de navegação e rodapé (footer).
  * Formatação das imagens (adição de bordas e alinhamento).
  * Ajustes visuais nos títulos e textos principais.
-   
-![Formulário 1](img/imagemformulario1.jpg.jpeg)
 
+
+![imagempagecss1]img/imagempagecss1.jpg.jpeg).
+![imagempagecss1]img/imagempagecss2.jpg.jpeg).
+![imagempagecss1]img/imagempagecss3.jpg.jpeg).
+![imagempagecss1]img/imagempagecss4.jpg.jpeg).
+
+![Formulário 1](img/imagemformulario1.jpg.jpeg)
 ![Formulário 2](img/imagemformulario2.jpg.jpeg)
