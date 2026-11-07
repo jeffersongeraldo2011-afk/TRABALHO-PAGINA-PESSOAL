@@ -29,6 +29,12 @@ Atividade 1 e 2: Estrutura Base
  * Formatação das imagens (adição de bordas e alinhamento).
  * Ajustes visuais nos títulos e textos principais.
 
+## Atividade 5: Organização Avançada com CSS Grid e Flexbox
+Nesta atividade, o foco foi a aplicação prática de técnicas avançadas de layout e estruturação de páginas web utilizando CSS Grid e Flexbox.
+ * Estrutura com CSS Grid: Organização estrutural geral da página (cabeçalho, conteúdo principal e rodapé) utilizando grid-template-areas e grid-template-rows.
+ * Disposição de Cartões (Cards): Criação de um layout responsivo para cartões utilizando display: grid com auto-fit e minmax.
+ * Alinhamento com Flexbox: Emprego de flexbox (display: flex, flex-direction: column e justify-content: space-between) dentro dos elementos para garantir que o conteúdo interno e as tags fiquem perfeitamente alinhados e distribuídos.
+ * Estilização Visual: Customização de cores, tipografia, bordas arredondadas e efeitos de transição interativos (hover).
 
 ![imagempagecss1](img/imagempagecss1.jpg.jpeg)
 ![imagempagecss2](img/imagempagecss2.jpg.jpeg)
