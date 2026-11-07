@@ -37,8 +37,8 @@ Nesta atividade, o foco foi a aplicação prática de técnicas avançadas de la
  * Estilização Visual: Customização de cores, tipografia, bordas arredondadas e efeitos de transição interativos (hover).
 
 ![imagemflexgrid1](img/imagem_flex_grid1.jpeg)
-![imagemflexgrid2](img/imagem_flex_grid2.jpg.jpeg)
-![imagemflexgrid3](img/imagem_flex_grid3.jpg.jpeg)
+![imagemflexgrid2](img/imagem_flex_grid2.jpeg)
+![imagemflexgrid3](img/imagem_flex_grid3.jpeg)
 ![imagempagecss1](img/imagempagecss1.jpg.jpeg)
 ![imagempagecss2](img/imagempagecss2.jpg.jpeg)
 ![imagempagecss3](img/imagempagecss3.jpg.jpeg)
