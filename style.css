@@ -1,14 +1,28 @@
 Body {
-    background-color: rgb(2, 2, 54);
+    background-color: #000033;
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    padding: 0 40px;
+    box-sizing: border-box;
 }
 
 header {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-top: 20px;
     background-color: #9e9c9c;
-    padding: 5px;
+    padding-top: 5px;
     border: 1px solid #cccccc;
 }
 
 h1 {
+    margin-left: 20px;
     color: rgb(0, 0, 0);
     font-family: Sedgwick Ave Display, cursive;
     font-size: 40px;
@@ -19,6 +33,7 @@ h1 {
 p {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
 }
 
 a {
@@ -84,9 +99,61 @@ footer {
     font-weight: bold;
 }
 
+/* Estilos da Atividade de Cards*/
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
 
+/* Estilo para cada cartão individual */
+.card {
+    background-color: #1a1a2e;
+    border: 2px solid rgb(165, 165, 2);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
 
+/* Efeito legal quando passa o mouse por cima do card */
+.card:hover {
+    transform: translateY(-5px);
+}
 
+.card h3 {
+    color: rgb(165, 165, 2);
+    font-family: Verdana;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: white;
+    font-size: 14px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.tag {
+    background-color: #262640;
+    color: rgb(165, 165, 2);
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(165, 165, 2);
+    font-family: Verdana, sans-serif;
+}
 
 
 
