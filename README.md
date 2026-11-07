@@ -36,9 +36,9 @@ Nesta atividade, o foco foi a aplicação prática de técnicas avançadas de la
  * Alinhamento com Flexbox: Emprego de flexbox (display: flex, flex-direction: column e justify-content: space-between) dentro dos elementos para garantir que o conteúdo interno e as tags fiquem perfeitamente alinhados e distribuídos.
  * Estilização Visual: Customização de cores, tipografia, bordas arredondadas e efeitos de transição interativos (hover).
 
-![imagempageflexgrid1](img/imagem_flex_grid1.jpg.jpeg)
-![imagempageflexgrid2](img/imagem_flex_grid2.jpg.jpeg)
-![imagempageflexgrid3](img/imagem_flex_grid3.jpg.jpeg)
+![FlexGrid 1](img/imagem_flex_grid1.jpg)
+![FlexGrid 2](img/imagem_flex_grid2.jpg)
+![FlexGrid 3](img/imagem_flex_grid3.jpg)
 ![imagempagecss1](img/imagempagecss1.jpg.jpeg)
 ![imagempagecss2](img/imagempagecss2.jpg.jpeg)
 ![imagempagecss3](img/imagempagecss3.jpg.jpeg)
