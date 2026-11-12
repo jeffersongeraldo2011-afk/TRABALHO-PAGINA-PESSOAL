@@ -41,7 +41,7 @@ Utlização de CSS Grid;
 Flexbox e Media Queries;
 Garantia de adaptação do Laout em diferentes tamanhos de tela, como celular e tablets. 
 
-![imagemresponsivo1](img/imagemresponsivo1.jpg)
+![imagemresponsivo1](img/imagemresponsivo1.jpeg)
 ![imagemflexgrid1](img/imagem_flex_grid1.jpeg)
 ![imagemflexgrid2](img/imagem_flex_grid2.jpeg)
 ![imagemflexgrid3](img/imagem_flex_grid3.jpeg)
