@@ -42,6 +42,9 @@ Flexbox e Media Queries;
 Garantia de adaptação do Laout em diferentes tamanhos de tela, como celular e tablets. 
 
 ![imagemresponsivo1](img/imagemresponsivo1.jpeg)
+![imagemresponsivo2](img/imagemresponsivo2.jpeg)
+![imagemresponsivo3](img/imagemresponsivo3.jpeg)
+![imagemresponsivo4](img/imagemresponsivo4.jpeg)
 ![imagemflexgrid1](img/imagem_flex_grid1.jpeg)
 ![imagemflexgrid2](img/imagem_flex_grid2.jpeg)
 ![imagemflexgrid3](img/imagem_flex_grid3.jpeg)
