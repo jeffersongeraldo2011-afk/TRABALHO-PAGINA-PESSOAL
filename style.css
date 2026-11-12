@@ -1,4 +1,4 @@
-Body {
+body {
     background-color: #000033;
     display: grid;
     min-height: 100vh;
@@ -8,7 +8,7 @@ Body {
         "footer";
     grid-template-rows: auto 1fr auto;
     margin: 0;
-    padding: 0 40px;
+    padding: 0 1rem;
     box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@ h1 {
     margin-left: 20px;
     color: rgb(0, 0, 0);
     font-family: Sedgwick Ave Display, cursive;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 900;
     -webkit-text-stroke: 1.5px white;
 }
@@ -58,8 +58,8 @@ main {
 }
 
 img {
-    width: 330px;
-    height: 350px;
+    max-width: 330px;
+    height: auto;
     border: 15px solid white;
     border-radius: 20px;
 }
@@ -99,7 +99,7 @@ footer {
     font-weight: bold;
 }
 
-/* Estilos da Atividade de Cards*/
+/* Estilos da Atividade de Cards */
 .container-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -107,7 +107,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Estilo para cada cartão individual */
 .card {
     background-color: #1a1a2e;
     border: 2px solid rgb(165, 165, 2);
@@ -115,9 +114,11 @@ footer {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-/* Efeito legal quando passa o mouse por cima do card */
 .card:hover {
     transform: translateY(-5px);
 }
@@ -131,18 +132,14 @@ footer {
 .card p {
     color: white;
     font-size: 14px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-left: 0;
 }
 
 .tags {
     display: flex;
     gap: 8px;
     margin-top: 15px;
+    flex-wrap: wrap;
 }
 
 .tag {
@@ -155,13 +152,37 @@ footer {
     font-family: Verdana, sans-serif;
 }
 
+/* ==========================================
+   MEDIA QUERIES PARA RESPONSIVIDADE
+   ========================================== */
+@media (max-width: 650px) {
+    body {
+        padding: 0.5rem;
+    }
 
+    header {
+        text-align: left;
+        padding-left: 1rem;
+    }
 
+    h1 {
+        font-size: 1.5rem;
+        margin-left: 0;
+        text-align: left;
+    }
 
+    h2, .card h3 {
+        font-size: 1.3rem;
+    }
 
+    img {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-width: 8px;
+    }
 
-
-
-
-
-
+    input, textarea {
+        width: 100%;
+    }
+}
