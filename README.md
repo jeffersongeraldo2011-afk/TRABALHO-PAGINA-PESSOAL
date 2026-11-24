@@ -41,9 +41,9 @@ Nesta atividade, o foco foi a aplicação prática de técnicas avançadas de la
  * Estratégia Mobile-First: Desenvolvimento inicial voltado para dispositivos móveis, garantindo o carregamento otimizado e a posterior adaptação fluida para telas maiores.
  * Padronização e Adaptabilidade: Garantia de adaptação completa do layout e alinhamento dos elementos em diferentes tamanhos de tela, como celulares, tablets e desktops.
 
-![imagemresponsividade1](img/imagemresponsividade1.jpeg)
-![imagemresponsividade2](img/imagemresponsividade2.jpeg)
-![imagemresponsividade3](img/imagemresponsividade3.jpeg)
+![imagemresponsividade1](img/ImagemResponsividade1.jpeg)
+![imagemresponsividade2](img/ImagemResponsividade2.jpeg)
+![imagemresponsividade3](img/ImagemResponsividade3.jpeg)
 ![imagemflexgrid1](img/imagem_flex_grid1.jpeg)
 ![imagemflexgrid2](img/imagem_flex_grid2.jpeg)
 ![imagemflexgrid3](img/imagem_flex_grid3.jpeg)
