@@ -40,10 +40,10 @@ Nesta atividade, o foco foi a aplicação prática de técnicas avançadas de la
 * Técnicas Utilizadas: Aplicação de CSS Grid, Flexbox e Media Queries para estruturação de um layout flexível e adaptável.
  * Estratégia Mobile-First: Desenvolvimento inicial voltado para dispositivos móveis, garantindo o carregamento otimizado e a posterior adaptação fluida para telas maiores.
  * Padronização e Adaptabilidade: Garantia de adaptação completa do layout e alinhamento dos elementos em diferentes tamanhos de tela, como celulares, tablets e desktops.
-![imagemresponsivo1](img/imagemresponsivo1.jpeg)
-![imagemresponsivo2](img/imagemresponsivo2.jpeg)
-![imagemresponsivo3](img/imagemresponsivo3.jpeg)
-![imagemresponsivo4](img/imagemresponsivo4.jpeg)
+
+![imagemresponsividade1](img/imagemresponsividade1.jpeg)
+![imagemresponsividade2](img/imagemresponsividade2.jpeg)
+![imagemresponsividade3](img/imagemresponsividade3.jpeg)
 ![imagemflexgrid1](img/imagem_flex_grid1.jpeg)
 ![imagemflexgrid2](img/imagem_flex_grid2.jpeg)
 ![imagemflexgrid3](img/imagem_flex_grid3.jpeg)
