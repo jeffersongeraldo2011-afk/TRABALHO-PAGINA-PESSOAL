@@ -37,10 +37,9 @@ Nesta atividade, o foco foi a aplicação prática de técnicas avançadas de la
  * Estilização Visual: Customização de cores, tipografia, bordas arredondadas e efeitos de transição interativos (hover).
 
 ## Atividade 6: Implementação de design responsivo ##
-Utlização de CSS Grid;
-Flexbox e Media Queries;
-Garantia de adaptação do Laout em diferentes tamanhos de tela, como celular e tablets. 
-
+* Técnicas Utilizadas: Aplicação de CSS Grid, Flexbox e Media Queries para estruturação de um layout flexível e adaptável.
+ * Estratégia Mobile-First: Desenvolvimento inicial voltado para dispositivos móveis, garantindo o carregamento otimizado e a posterior adaptação fluida para telas maiores.
+ * Padronização e Adaptabilidade: Garantia de adaptação completa do layout e alinhamento dos elementos em diferentes tamanhos de tela, como celulares, tablets e desktops.
 ![imagemresponsivo1](img/imagemresponsivo1.jpeg)
 ![imagemresponsivo2](img/imagemresponsivo2.jpeg)
 ![imagemresponsivo3](img/imagemresponsivo3.jpeg)
