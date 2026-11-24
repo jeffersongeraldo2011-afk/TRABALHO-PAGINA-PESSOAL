@@ -8,26 +8,64 @@
 </head>
 <body>
 
-    <header>
-        <h1>Sobre Mim</h1>
-       <p>A área em que trabalho é a Segurança Privada, setor no qual me identifiquei e venho atuando e também buscando me aperfeiçoar.</p>
-        
-        <nav>
-            <!-- Link para voltar à página principal -->
-            <a href="index.html">Voltar ao Início</a>
-        </nav>
+    <header class="topo">
+        <div class="container topo-conteudo">
+            <div class="topo-identidade">
+                <h1>Sobre Mim</h1>
+                <p>A área em que trabalho é a Segurança Privada, setor no qual me identifiquei e venho atuando e também buscando me aperfeiçoar.</p>
+            </div>
+
+            <nav class="menu" aria-label="Navegação da página sobre">
+                <a href="index.html">Voltar ao Início</a>
+                <a href="index.html#apresentacao">Apresentação</a>
+                <a href="index.html#projetos">Projetos</a>
+                <a href="index.html#contato">Contato</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="detalhes">
+    <main class="container conteudo-principal">
+        <section id="detalhes" class="secao">
             <h2>Minha Trajetória</h2>
-            <p>Esta será minha segunda experiência no IF Sudeste MG- Campus Barbacena, onde me formei no ano de 16/17 no curso para Segurança do Trabalho.</p>
-            <p>Atualmente sou formado e atuo, em área totalmente diferente da formada na Instituição, onde possuo Pós-Graduação.</p>
+
+            <div class="container-cards">
+                <article class="card">
+                    <h3>Formação e Instituição</h3>
+                    <p>Esta será minha segunda experiência no IF Sudeste MG - Campus Barbacena, onde me formei no ano de 16/17 no curso para Segurança do Trabalho.</p>
+                    <div class="tags">
+                        <span class="tag">IF Sudeste MG</span>
+                        <span class="tag">Formação</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Atuação Profissional</h3>
+                    <p>Atualmente sou formado e atuo em área totalmente diferente da formada na Instituição, onde possuo Pós-Graduação.</p>
+                    <div class="tags">
+                        <span class="tag">Segurança Privada</span>
+                        <span class="tag">Pós-Graduação</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Transição e Tecnologia</h3>
+                    <p>Busco unir a bagagem profissional adquirida ao longo da carreira com novos conhecimentos em tecnologia e desenvolvimento.</p>
+                    <div class="tags">
+                        <span class="tag">Desenvolvimento</span>
+                        <span class="tag">Aprendizado</span>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <a href="index.html">Voltar para a página inicial</a>
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <div class="rodape-creditos">
+                <p>Desenvolvido por Jefferson.</p>
+                <a href="index.html">Voltar para a página inicial</a>
+            </div>
+        </div>
     </footer>
 
 </body>

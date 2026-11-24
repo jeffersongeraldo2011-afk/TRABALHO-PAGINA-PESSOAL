@@ -8,34 +8,42 @@
 </head>
 <body>
 
-    <header>
-        <h1>Minha Página Pessoal</h1>
-       
-        <p>Conheça um pouco da minha trajetória acadêmica e profissional.</p>
-        
-        <nav>
-            <a href="#apresentacao">Apresentação</a>
-            <a href="#hobbies">Interesses</a>
-            <a href="sobre.html">Sobre mim</a>
-        </nav>
+    <header class="topo">
+        <div class="container topo-conteudo">
+            <div class="topo-identidade">
+                <h1>Minha Página Pessoal</h1>
+                <p>Conheça um pouco da minha trajetória acadêmica e profissional.</p>
+            </div>
+
+            <nav class="menu" aria-label="Navegação principal">
+                <a href="#apresentacao">Apresentação</a>
+                <a href="#hobbies">Interesses</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+                <a href="sobre.html">Sobre mim</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="apresentacao">
-            <h2>Quem sou eu?</h2>
+    <main class="container conteudo-principal">
+        <section id="apresentacao" class="secao apresentacao-box">
+            <div class="apresentacao-texto">
+                <h2>Quem sou eu?</h2>
 
-            <p>Olá! Me chamo <span class="destaque">Jefferson</span>.</p>
-     
-            <p>Tenho 31 anos, Atualmente, moro e trabalho em Conselheiro Lafaiete, na área de Segurança Privada.</p>
-            <p>O universo da tecnologia sempre despertou minha curiosidade e meu interesse. A possibilidade de compreender como os sistemas funcionam, como as ferramentas digitais são desenvolvidas e como a tecnologia pode transformar a vida das pessoas é algo que me motiva a aprender cada vez mais e a buscar novos conhecimentos nessa área.</p>
+                <p>Olá! Me chamo <span class="destaque">Jefferson</span>.</p>
+                <p>Tenho 31 anos. Atualmente, moro e trabalho em Conselheiro Lafaiete, na área de Segurança Privada.</p>
+                <p>O universo da tecnologia sempre despertou minha curiosidade e meu interesse. A possibilidade de compreender como os sistemas funcionam, como as ferramentas digitais são desenvolvidas e como a tecnologia pode transformar a vida das pessoas é algo que me motiva a aprender cada vez mais e a buscar novos conhecimentos nessa área.</p>
+                <p>Vivemos em uma era de constantes transformações digitais, em que a tecnologia cresce e evolui a cada dia, trazendo novas oportunidades e desafios para a sociedade e para o mercado de trabalho.</p>
+                <p>Acredito que acompanhar essa evolução é fundamental para o desenvolvimento pessoal e profissional, permitindo ampliar horizontes, adquirir novas habilidades e estar preparado para as exigências do futuro.</p>
+                <p>Meu objetivo é aprofundar meus conhecimentos na área de tecnologia, explorar novas possibilidades e desenvolver competências que contribuam para minha formação. Encaro essa jornada como uma oportunidade de aprendizado contínuo, buscando unir minha experiência profissional aos conhecimentos tecnológicos para crescer, inovar e construir novas oportunidades para minha carreira.</p>
+            </div>
 
-            <p>Vivemos em uma era de constantes transformações digitais, em que a tecnologia cresce e evolui a cada dia, trazendo novas oportunidades e desafios para a sociedade e para o mercado de trabalho.</p>
-            <p>Acredito que acompanhar essa evolução é fundamental para o desenvolvimento pessoal e profissional, permitindo ampliar horizontes, adquirir novas habilidades e estar preparado para as exigências do futuro.</p>
-            <p>Meu objetivo é aprofundar meus conhecimentos na área de tecnologia, explorar novas possibilidades e desenvolver competências que contribuam para minha formação. Encaro essa jornada como uma oportunidade de aprendizado contínuo, buscando unir minha experiência profissional aos conhecimentos tecnológicos para crescer, inovar e construir novas oportunidades para minha carreira.</p>
-            <img src="img/jefferson.jpg.jpeg" alt="Foto pessoal de Jefferson">
+            <div class="apresentacao-foto">
+                <img src="img/jefferson.jpg.jpeg" alt="Foto pessoal de Jefferson">
+            </div>
         </section>
 
-        <section id="hobbies">
+        <section id="hobbies" class="secao">
             <h2>Meus interesses</h2>
 
             <ul>
@@ -44,89 +52,92 @@
                 <li>Inteligência em Segurança Privada</li>
             </ul>
         </section>
-    </main>
 
-    <section id="projetos">
+        <section id="projetos" class="secao">
             <h2>Meus Projetos e Tecnologias</h2>
-            
+
             <div class="container-cards">
-                <div class="card">
+                <article class="card">
                     <h3>Tecnologia HTML</h3>
                     <p>Estruturação de páginas web semânticas e organizadas.</p>
                     <div class="tags">
                         <span class="tag">Web</span>
                         <span class="tag">Frontend</span>
                     </div>
-                </div>
-                
-                <div class="card">
+                </article>
+
+                <article class="card">
                     <h3>Tecnologia CSS</h3>
                     <p>Estilização avançada, cores, fontes, Flexbox e Grid Layout.</p>
                     <div class="tags">
                         <span class="tag">Design</span>
                         <span class="tag">Layout</span>
                     </div>
-                </div>
+                </article>
 
-                <div class="card">
+                <article class="card">
                     <h3>Tecnologias relacionadas a programação de Softwares</h3>
                     <p>Estudo e aplicação de lógica para desenvolvimento de sistemas e resolução de problemas.</p>
                     <div class="tags">
                         <span class="tag">Lógica</span>
                         <span class="tag">Código</span>
                     </div>
-                </div>
-                
-                <div class="card">
+                </article>
+
+                <article class="card">
                     <h3>Segurança Privada</h3>
                     <p>Gestão, inteligência e operações aplicadas ao setor.</p>
                     <div class="tags">
                         <span class="tag">Gestão</span>
                         <span class="tag">Operações</span>
                     </div>
-                </div>
+                </article>
             </div>
-
         </section>
+    </main>
 
-    <footer>
-        <section id="contato">
-            <h2>Entre em contato</h2>
-            
-            <form>
-                <fieldset>
-                    <legend>Formulário de Contato</legend>
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <section id="contato" class="contato-box">
+                <h2>Entre em contato</h2>
 
-                    <div>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" required>
-                    </div>
+                <form>
+                    <fieldset>
+                        <legend>Formulário de Contato</legend>
 
-                    <div>
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
+                        <div class="campo-form">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
 
-                    <div>
-                        <label for="assunto">Assunto:</label>
-                        <input type="text" id="assunto" name="assunto">
-                    </div>
+                        <div class="campo-form">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
 
-                    <div>
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-                    </div>
+                        <div class="campo-form">
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" name="assunto">
+                        </div>
 
-                    <div>
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Limpar</button>
-                    </div>
-                </fieldset>
-            </form>
-        </section>
+                        <div class="campo-form">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        </div>
 
-        <p>Desenvolvido por Jefferson.</p>
-        <a href="sobre.html">Saiba mais sobre mim</a>
+                        <div class="botoes-form">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+
+            <div class="rodape-creditos">
+                <p>Desenvolvido por Jefferson.</p>
+                <a href="sobre.html">Saiba mais sobre mim</a>
+            </div>
+        </div>
     </footer>
 
 </body>
